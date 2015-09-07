@@ -30,25 +30,25 @@ After install, to use *GD Shortener* is sufficient to import the package, choose
 	import gdshortener
 	
 	s = gdshortener.ISGDShortener()
-	print s.shorten('http://www.google.com')
+	print(s.shorten('http://www.google.com'))
 	
 If you want statistic usage on a URL use:
 
 .. code-block:: python
 	
-	print s.shorten(url = 'http://www.google.com', log_stat = True)
+	print(s.shorten(url = 'http://www.google.com', log_stat = True))
 	
 If you want a custom URL use:
 
 .. code-block:: python
 	
-	print s.shorten(url = 'http://www.google.com', custom_url = 'Pippus')
+	print(s.shorten(url = 'http://www.google.com', custom_url = 'Pippus'))
 	
 If you have an already shortened URL and want a reverse lookup:
 
 .. code-block:: python
 	
-	print s.lookup('http://is.gd/Pippus')
+	print(s.lookup('http://is.gd/Pippus'))
 	
 License
 -------
