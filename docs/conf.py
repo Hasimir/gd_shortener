@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-#
+
+from __future__ import unicode_literals
+
 # GD Shortener documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun 14 19:57:07 2013.
 #
