@@ -8,8 +8,6 @@ setup(
     version = "0.0.3",
     author = "Gian Luca Dalla Torre",
     author_email = "gianluca@gestionaleauto.com",
-    # contributor = "Ben McGinnes",
-    # contributor_email = "ben@adversary.org"
     description = ("A module that provides access to .gd URL Shortener"),
     license = "LGPL",
     keywords = "url shortener gd",
