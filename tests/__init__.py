@@ -1,1 +1,1 @@
-from gdshortener_test import GDShortenerTest
+from .gdshortener_test import GDShortenerTest
